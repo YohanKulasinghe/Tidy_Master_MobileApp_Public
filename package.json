@@ -1,0 +1,32 @@
+{
+  "name": "TidyMaster_new",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "haversine": "^1.1.1",
+    "native-base": "^2.8.1",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4",
+    "react-native-camera": "^1.5.0",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-image-crop-picker": "^0.21.3",
+    "react-native-maps": "^0.23.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-qrcode-scanner": "^1.1.0",
+    "react-native-router-flux": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.0",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
